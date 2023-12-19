@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="/janif/images/port.png" alt="logo">
+            <ul>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#skills-loc">My Skills</a></li>
+                <li><a href="#contact-loc">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="ri-search-line"></i>
+            </div>
+        </nav>
+        <div class="landing">
+            <div class="intro">
+                <h3>I'M <Span>janif</Span><br>Graphic & Web Designer <br>UI UX</h3>
+                <button>Contact Me</button>
+            </div>
+            <div class="socials">
+                <div class="line"></div>
+                <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-twitter-fill"></i>
+                <i class="ri-linkedin-fill"></i>
+                <i class="ri-whatsapp-line"></i>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <h1>About</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>I'm JANIF, 
+                a dedicated <span>graphic designer and UI/UX </span>specialist 
+                with a passion for turning ideas into visually stunning designs.
+                
+                
+                </p>
+        </div>
+    </section>
+    <section class="skills" id="skills-loc">
+        <h1>My Skills</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="images/512.png" alt="">
+                <h2>Graphic Design</h2>
+            </div>
+            <div class="skill-card">
+                <img src="images/webdes.png" alt="">
+                <h2>Web Design</h2>
+            </div>
+            <div class="skill-card">
+                <img src="images/uiux.png" alt="">
+                <h2>UI/UX</h2>
+            </div>
+            <div class="skill-card">
+                <img src="data:image/png;base64,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" alt="">
+                <h2>Adobe Premier Pro</h2>
+            </div>
+         </div>
+    </section>
+       <section class="contact-me" id="contact-loc">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <div class="contact-card">
+                <i class="ri-message-3-line"></i>
+                <p>designandeditors@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>7569083484</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Hyderabad,Telengana</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+    
